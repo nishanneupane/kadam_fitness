@@ -24,7 +24,7 @@ const HeroBanner = () => (
       height: '90%',
       borderRadius: '50%',
       opacity: '0.7'
-    }}/>
+    }} />
   </Box>
 );
 

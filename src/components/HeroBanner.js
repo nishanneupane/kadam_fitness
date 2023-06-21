@@ -20,11 +20,13 @@ const HeroBanner = () => (
     <Typography fontWeight={600} color="#b0de1b" sx={{ opacity: '0.1', display: { lg: 'block', xs: 'none' }, fontSize: '200px' }}>
       Work Hard
     </Typography>
-    <img src={HeroBannerImage} alt="hero-banner" className="hero-banner-img" style={{
-      height: '90%',
-      borderRadius: '50%',
-      opacity: '0.7'
-    }} />
+    <img src={HeroBannerImage}
+      alt="hero-banner"
+      className="hero-banner-img" style={{
+        height: "90%",
+        borderRadius: "50%",
+        opacity: "0.7"
+      }} />
   </Box>
 );
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
 
-import HeroBannerImage from '../assets/images/action-g7c6a1959b_640.jpg';
+import HeroBannerImage from '../assets/images/banner.jpg';
 
 const HeroBanner = () => (
   <Box
@@ -12,7 +12,7 @@ const HeroBanner = () => (
     position="relative"
     p="20px"
   >
-    <Typography color="#b0de1b" fontWeight="600" fontSize="26px">
+    <Typography color="#ff2625" fontWeight="600" fontSize="26px">
       Kadam Fitness
     </Typography>
     <Typography
@@ -38,12 +38,13 @@ const HeroBanner = () => (
           textDecoration: 'none',
           width: '200px',
           textAlign: 'center',
-          background: '#b0de1b',
+          background: '#ff2625',
           padding: '14px',
           fontSize: '22px',
           textTransform: 'none',
           color: 'white',
           borderRadius: '4px',
+          boxShadow: '0px 2px 5px 1px gray',
         }}
       >
         Explore Exercises
@@ -51,7 +52,7 @@ const HeroBanner = () => (
     </Stack>
     <Typography
       fontWeight={600}
-      color="#b0de1b"
+      color="#ff2625"
       sx={{
         opacity: '0.1',
         display: { lg: 'block', xs: 'none' },
@@ -66,8 +67,8 @@ const HeroBanner = () => (
       className="hero-banner-img"
       style={{
         height: '90%',
-        borderRadius: '50%',
-        opacity: '0.7',
+        // borderRadius: '50%',
+        opacity: '0.9',
       }}
     />
   </Box>

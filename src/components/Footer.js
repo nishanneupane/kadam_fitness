@@ -3,7 +3,7 @@ import { Box, Stack, Typography } from '@mui/material';
 import Logo from '../assets/images/logo.png';
 
 const Footer = () => (
-  <Box mt="80px" bgcolor="#d8f062">
+  <Box mt="80px" bgcolor="#ff2625" color="white">
     <Stack gap="40px" sx={{ alignItems: 'center' }} flexWrap="wrap" px="40px" pt="24px">
       <img src={Logo} alt="logo" style={{ width: '40px', height: '40px', borderRadius: '50%' }} />
     </Stack>

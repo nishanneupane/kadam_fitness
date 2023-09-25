@@ -66,7 +66,7 @@ const HeroBanner = () => (
       alt="hero-banner"
       className="hero-banner-img"
       style={{
-        height: '90%',
+        height: '80%',
         // borderRadius: '50%',
         opacity: '0.9',
       }}
